@@ -1,7 +1,6 @@
 # A supply chain landing page 
  A Responsive landing page using bootstrap
- # images Resources
- logo from logomakr.com
- freenatures.com
- wikimedia.org
- 
+ # Images Resources
+   - logo from <https://www.logomakr.com>
+   - background-images <https://www.freenaturesstock.com>
+   - The apps icon <https://www.wikimedia.org>
