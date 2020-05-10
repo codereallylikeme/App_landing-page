@@ -1,0 +1,106 @@
+
+/* I Add a cover Background with a fixed height*/
+.jumbotron{
+    background: url('https://freenaturestock.s3.us-east-1.amazonaws.com/1667.jpg')center center;
+    background-size: cover;
+    height:600px;
+}
+
+/* Set the of the Logo*/
+.logo{
+    width: 75px;
+    height: 75px;
+}
+/* change the text-color*/
+.featured{
+    color:#fff;
+}
+
+/* Set a space btw the logo and the h1*/
+   .featured h1{
+       padding-top: 60px;
+   }
+
+   /* Style the links*/
+   .featured .btn-default{
+       font-weight: bold;
+       color:white;
+       background-color: rgba(145,82,53,0.5);
+       border-radius: 10px;
+       margin-top: 20px;
+       width: 180px;
+       margin-right:15px;
+   }
+
+   .featured .btn-default:hover{
+    background-color: rgb(145,82,53);
+   }
+
+
+   .trial{
+       text-align: center;
+       padding: 20px 0 46px 0;
+
+   }
+
+   .trial img{
+       width:200px;
+       height: 70px;
+       margin:20px;
+   }
+
+   /* Add styling devices btw 480px and 768px*/
+   @media(min-width:480px) and (max-width:768px){
+       .jumbotron{
+           height: 410px;
+           margin: 0;
+       }
+       .logo{
+           width: 50px;
+           height: 50px;
+       }
+       .featured h1{
+           padding-top: 30px;
+       }
+
+       .featured p{
+           font-size: 17px;
+       }
+
+       .featured{
+           text-align: center;
+       }
+   }
+
+   @media(max-width:480px){
+    .jumbotron{
+        height: 410px;
+        margin: 0;
+    }
+    .logo{
+        width: 40px;
+        height: 40px;
+    }
+    .featured h1{
+        padding-top: 10px;
+    }
+
+    .featured p, .featured a{
+        font-size: 13px;
+    }
+
+    .featured{
+        text-align: center;
+        color:#000
+    }
+    .trial img{
+        width:100px;
+        height:35px;
+        margin:10px;
+    }
+    .footer{
+        background-color: #eee;
+        font-size: 10px;
+        padding: 16px 0;
+    }
+}
